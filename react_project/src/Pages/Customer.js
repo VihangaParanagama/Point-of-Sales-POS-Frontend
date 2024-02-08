@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useParams, useNavigate } from "react-router-dom"; // Import useNavigate
-
+import { Link, useParams, useNavigate } from "react-router-dom"; 
 import axios from "axios";
 
 const Customer = () => {
