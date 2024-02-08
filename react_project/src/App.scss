@@ -1,0 +1,204 @@
+$primary: #0d6efd;
+$border-radius: 25px;
+$border-color: #ddd;
+$offcanvas-margin: 10px;
+$offcanvas-width: 250px;
+$offcanvas-height: 625px;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+@import '~bootstrap/scss/bootstrap';
+
+.btn-outline-custom {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-custom:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+}
+
+.btn-offcanvas {
+  color: #fff; 
+  background-color: transparent !important; 
+  border: none; 
+  padding: 0; 
+}
+
+.btn-offcanvas:hover {
+  color: #fff; 
+  text-decoration: underline;
+}
+
+
+.navbar {
+  background-color: $primary;
+}
+
+
+.offcanvas-title {
+  color: #ffffff;
+  
+}
+
+
+.offcanvas-start {
+  background-color: $primary;
+  border-radius: $border-radius;
+  margin: $offcanvas-margin;
+  width: $offcanvas-width !important;
+  height: $offcanvas-height !important;
+  margin-top: 65px; 
+}
+
+.offcanvas-header {
+  background-color: #0d6efd; 
+  border-radius: $border-radius; 
+   
+}
+
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-offcanvas {
+  color: #fff; 
+  font-weight: bold; 
+  background-color: transparent !important; 
+  border: none; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+}
+
+.btn-offcanvas:hover {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+
+body .btn-outline-primary {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #0d6efd;
+  padding: 10px;
+  border: 2px solid #0d6efd;
+  outline: none; 
+  cursor: pointer;
+}
+
+
+body .btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-outline-info{
+  position: fixed;
+}
+
+.card {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  position: relative; 
+}
+
+.card-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.continue-button {
+  margin-bottom: 20px; 
+}
+
+.add-customer-button {
+  align-self: flex-end;
+  margin-top: auto; 
+}
+
+.btn-outline-info{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.logoImage {
+  display: flex;
+  align-items: center;
+}
+
+.center-content {
+  margin-left: 100px; 
+  margin-right: auto;
+}
+
+.parent-container .h5 {
+  color: #fff;
+}
+
+.table-with-margin {
+  margin: 20px;
+}
+
+.orderSum{
+  color: #234fc6;
+}
+
+.InputQty{
+  width: 50px; 
+  font-size: 12px; 
+}
+
+.btn-back-to-customer-form {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.btn-outline-secondary{
+  position: fixed;
+  bottom: 10px; 
+  right: 10px; 
+
+}
+
+body .btn-outline-success {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 25px;
+  background-color: #fff;
+  padding: 5px 10px; 
+  border: 2px solid; 
+  outline: none; 
+  cursor: pointer;
+  font-size: 12px; 
+}
+
+
+
+
+

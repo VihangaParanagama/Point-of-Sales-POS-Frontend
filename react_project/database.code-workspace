@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../SpringBoot/database"
+		},
+		{
+			"path": "react_project"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
